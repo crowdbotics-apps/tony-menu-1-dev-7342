@@ -92,7 +92,7 @@ export class _Blank extends React.Component {
         }}
       />
       <Input
-        placeholder="Username"
+        placeholder="Email"
         editable={true}
         textStyle={{ fontSize: 12, color: "#000000" }}
         style={{
@@ -197,7 +197,7 @@ export class _Blank extends React.Component {
           verticalAlign: "baseline",
           fontSize: 12,
           color: "#f5f5f5",
-          backgroundColor: "#3366FF",
+          backgroundColor: "#ED6854",
           fontStyle: "normal",
           fontWeight: "normal",
           borderColor: "#000000",
