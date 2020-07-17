@@ -92,7 +92,7 @@ export class _Blank extends React.Component {
         }}
       />
       <Input
-        placeholder="Sample text input placeholder"
+        placeholder="Username"
         editable={true}
         textStyle={{ fontSize: 12, color: "#000000" }}
         style={{
@@ -122,7 +122,7 @@ export class _Blank extends React.Component {
         onChangeText={nextValue => this.setState({ Input_5: nextValue })}
       />
       <Input
-        placeholder="Sample text input placeholder"
+        placeholder="Password"
         editable={true}
         textStyle={{ fontSize: 12, color: "#000000" }}
         style={{
