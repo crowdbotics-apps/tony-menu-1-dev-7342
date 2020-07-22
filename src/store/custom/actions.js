@@ -1,15 +1,20 @@
-import * as types from "./constants"
+import * as actions from "./constants"
 
-/* Example get balance actions
-export const getBalance = id => ({
-  type: types.GET_BALANCE, id
-})
+export const signUp = user => ({
+  type: actions.EMAIL_AUTH_SIGNUP_REQUEST,
+  user
+});
 
-export const getBalanceSucceeded = response => ({
-  type: types.GET_BALANCE_SUCCEEDED, response
-})
+export const login = user => ({
+  type: actions.EMAIL_AUTH_LOGIN_REQUEST,
+  user
+});
 
-export const getBalanceFailed = error => ({
-  type: types.GET_BALANCE_FAILED, error
-})
- */
+export const logout = _ => ({
+  type: actions.EMAIL_AUTH_LOGOUT
+});
+
+export const resetPassword = email => ({
+  type: actions.EMAIL_AUTH_PASSWORD_RECOVER_REQUEST,
+  email
+});
