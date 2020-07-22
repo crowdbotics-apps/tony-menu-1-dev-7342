@@ -21,15 +21,16 @@ const store = createStore(
           if (state == null) state = [];
           return state
       },
-      customReducer: (state, action) => {
-          if (state == null) state = [];
-          return state
-      }
+    //   customReducer: (state, action) => {
+    //       if (state == null) state = [];
+    //       return state
+    //   },
+      EmailAuth: customReducer,
   }),
   composeEnhancers(applyMiddleware(...middlewares))
 );
 
-sagaMiddleware.run(rootSaga);
+//sagaMiddleware.run(rootSaga);
 sagaMiddleware.run(customRootSaga);
 
 export { store };

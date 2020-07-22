@@ -1,6 +1,6 @@
 import axios from "axios"
 const tonymenu1API = axios.create({
-  baseURL: "https://tony-menu-1-dev-7342.herokuapp.com/",
+  baseURL: "http://tony-menu-1-dev-7342.botics.co/", //"https://tony-menu-1-dev-7342.herokuapp.com/",
   headers: { Accept: "application/json", "Content-Type": "application/json" }
 })
 function api_v1_customtext_list() {

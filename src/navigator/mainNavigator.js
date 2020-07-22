@@ -23,9 +23,14 @@ import BlankScreen18688Navigator from '../features/BlankScreen18688/navigator';
 const AppNavigator = {
 
     //@BlueprintNavigationInsertion
-BlankScreen29050: { screen: BlankScreen29050Navigator },
-BlankScreen39049: { screen: BlankScreen39049Navigator },
+//9041 login
 BlankScreen19041: { screen: BlankScreen19041Navigator },
+//9050 sign up
+BlankScreen29050: { screen: BlankScreen29050Navigator },
+// 9049 reset password
+BlankScreen39049: { screen: BlankScreen39049Navigator },
+
+
 BlankScreen19040: { screen: BlankScreen19040Navigator },
 BlankScreen68765: { screen: BlankScreen68765Navigator },
 BlankScreen58764: { screen: BlankScreen58764Navigator },
